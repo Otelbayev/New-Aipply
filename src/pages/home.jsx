@@ -1,15 +1,15 @@
 import React from "react";
 import { useMenuContext } from "../context/menu-context";
-import Header from "../components/Header/Header";
-import Showcase from "../components/Showcase/showcase";
-import Why from "../components/Why/why";
-import Courses from "../components/Courses/courses";
-import Banner from "../components/Banner/bannder";
-import Partners from "../components/Partners/partners";
-import Mentors from "../components/Mentors/mentors";
-import Comments from "../components/Comments/comments";
-import Bottom from "../components/Bottom/bottom";
-import Footer from "../components/Footer/footer";
+import Header from "../components/Header/Header.jsx";
+import Showcase from "../components/Showcase/showcase.jsx";
+import Why from "../components/Why/why.jsx";
+import Courses from "../components/Courses/courses.jsx";
+import Banner from "../components/Banner/bannder.jsx";
+import Partners from "../components/Partners/partners.jsx";
+import Mentors from "../components/Mentors/mentors.jsx";
+import Comments from "../components/Comments/comments.jsx";
+import Bottom from "../components/Bottom/bottom.jsx";
+import Footer from "../components/Footer/footer.jsx";
 
 const Home = () => {
   const { showMenu } = useMenuContext();
