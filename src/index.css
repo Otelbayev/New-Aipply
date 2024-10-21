@@ -310,3 +310,10 @@ html {
 .slick-next {
   display: none !important;
 }
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+}
