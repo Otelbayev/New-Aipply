@@ -9,6 +9,7 @@ export const Container = styled.div`
     padding: 50px 0;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 50px;
     &__left {
       width: 50%;
@@ -23,7 +24,9 @@ export const Container = styled.div`
     }
     &__right {
       width: 50%;
+      max-width: 400px;
       object-fit: cover;
+      animation: shaking 1s infinite alternate ease-in-out;
       img {
         width: 100%;
       }
@@ -57,6 +60,15 @@ export const Container = styled.div`
       &__right {
         width: 50%;
       }
+    }
+  }
+
+  @keyframes shaking {
+    from {
+      transform: translateY(10px);
+    }
+    to {
+      transform: translateY(-10px);
     }
   }
 `;

@@ -34,6 +34,9 @@ export const Container = styled.div`
         font-weight: 400;
         text-align: center;
       }
+      &__icon {
+        width: 150px;
+      }
       &__button {
         font-size: 14px;
         font-weight: 400;
@@ -56,6 +59,9 @@ export const Container = styled.div`
   @media screen and (max-width: 768px) {
     .courses {
       grid-template-columns: 1fr;
+      &__icon {
+        width: 120px;
+      }
     }
   }
 `;

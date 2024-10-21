@@ -82,90 +82,231 @@ export const graphicDesign = {
   module: [
     {
       id: "01",
-      title: "Photoshop",
+      title: "Dizaynning asoslari",
       body: [
         {
           id: 1,
           title:
-            "Photoshop dasturini o’rnatish va uning funksiyalari bilan tanishish.",
+            "a. Dizayn tarixi: Dizayn uslublari va yo‘nalishlarining rivojlanishiga kirish.",
         },
         {
           id: 2,
-          title: "Ranglar bilan ishlash va rangli sxemalarni tushunish.",
+          title:
+            "b. Photoshop asoslari: Photoshopda vositalar, qatlamlar va asosiy ish jarayonlari.",
         },
         {
           id: 3,
-          title: "Photoshop AI dasturi bilan tanishuv.",
+          title:
+            "c. Tipografika asoslari: Shriftlar, iyerarxiya va tipografikaning dizayndagi o‘rni.",
+        },
+        {
+          id: 4,
+          title:
+            "d. Ranglar nazariyasi: Rang uyg‘unligi, balansi va ranglarning psixologik ta’siri.",
+        },
+        {
+          id: 5,
+          title:
+            "e. Dizaynda balans yaratish: Kompozitsiyalarda balansni ta’minlash texnikalari.",
+        },
+        {
+          id: 6,
+          title:
+            "f. Dizaynda uyg‘unlik: Bo‘sh joylar, shakllar va formalar yordamida vizual uyg‘unlik yaratish.",
+        },
+        {
+          id: 7,
+          title:
+            "g. Shakl va formalar bilan ishlash: Geometrik va organik shakllardan foydalanish.",
+        },
+        {
+          id: 8,
+          title:
+            "h. Vizual hikoya yaratish: Dizayn orqali xabarlar yetkazish va hissiyotlarni uyg‘otish.",
         },
       ],
     },
     {
       id: "02",
-      title: "Illustrator",
+      title: "Vektor grafikalar va brending",
       body: [
         {
           id: 1,
-          title: "Vektor grafikasi asoslari va Illustrator interfeysi.",
+          title:
+            "a. Illustratorda vektor grafikalar: Vektor shakllar yaratish va tahrirlash.",
         },
         {
           id: 2,
-          title: "Shriftlar va tipografiya bilan ishlash.",
+          title:
+            "b. Banner dizayni: Chop etish va raqamli media uchun samarali bannerlar yaratish.",
         },
         {
           id: 3,
-          title: "Super prezintatsiya yasash va mijozga sotish.",
+          title:
+            "c. Broshura dizayni: Tuzilishi, maketlari va samarali broshura yaratish bo‘yicha maslahatlar.",
         },
         {
           id: 4,
-          title: "Brend Identity, brandbook va brend strategiya.",
+          title:
+            "d. Katalog dizayni: Foydalanuvchilar uchun qulay va vizual jozibali katalog yaratish.",
+        },
+        {
+          id: 5,
+          title:
+            "e. Logotip yaratish tamoyillari: Logotip dizayni va brend identifikatsiyasining asoslari.",
+        },
+        {
+          id: 6,
+          title:
+            "f. Brandbook yaratish: Brend uchun to‘liq brandbook yaratish bo‘yicha yo‘l-yo‘riqlar.",
+        },
+        {
+          id: 7,
+          title:
+            "g. Chopga tayyorlash: Dizaynlaringizni chop etishga tayyorlash bo‘yicha amaliy qadamlar.",
+        },
+        {
+          id: 8,
+          title:
+            "h. Chop etishda tipografika: Chop etishda shriftlarni to‘g‘ri tanlash va ulardan foydalanish.",
         },
       ],
     },
     {
       id: "03",
-      title: "Figma + InDesign",
+      title: "Figma va ijtimoiy media dizayni",
       body: [
         {
           id: 1,
-          title: "Figma dasturi bilan tanishish",
+          title:
+            "a. Figma dasturida ishlash: Figma interfeysi va hamkorlik xususiyatlariga kirish.",
         },
         {
           id: 2,
-          title: "Figma: Hamkorlik va design system'lar yaratish",
+          title:
+            "b. Ijtimoiy tarmoqlar uchun postlar yaratish: Instagram, Facebook va boshqa platformalar uchun jozibali postlar dizayni.",
         },
         {
           id: 3,
           title:
-            "InDesign: Nashriyot va bosma dizayni, shuningdek broshyura va magazinlar tuzilishi",
+            "c. Prezentatsiya dizayni: Samarali vizual prezentatsiyalar yaratish.",
         },
         {
           id: 4,
           title:
-            "InDesign: Sahifalararo navigatsiya va tarkibli ma'lumotlarni qo'llash.",
+            "d. Ijtimoiy tarmoqlar uchun story dizaynlar: Dinamik Instagram va Facebook storiylarini yaratish.",
+        },
+        {
+          id: 5,
+          title:
+            "e. Figmada jamoaviy ish: Figmada jamoa bo‘lib ishlash texnikalari.",
+        },
+        {
+          id: 6,
+          title:
+            "f. Murakkab maketlar yaratish: Figmada murakkab maketlar va komponentlar yaratish.",
+        },
+        {
+          id: 7,
+          title:
+            "g. Gridlar va qo‘llanmalar bilan ishlash: Figma gridlaridan foydalanib aniq moslash va tuzilma yaratish.",
+        },
+        {
+          id: 8,
+          title:
+            "h. SMD dizayn bo‘yicha maslahatlar: Ijtimoiy media post va storiylar dizaynining eng yaxshi amaliyotlari.",
         },
       ],
     },
     {
       id: "04",
-      title: "CorelDRAW va After Effects.",
+      title: "Sun’iy intellekt vositalari bilan ishlash",
       body: [
         {
           id: 1,
-          title: "CorelDRAW: Grafik dizayn asoslari va sozlamalari.",
+          title:
+            "a. Dizayndagi sun’iy intellektga kirish: Zamonaviy dizayn jarayonlarida sun’iy intellekt vositalari haqida umumiy tushuncha.",
         },
         {
           id: 2,
           title:
-            "After Effects: Asosiy animatsiya texnikalari va kompozitsiya qurilishi.",
+            "b. MidJourney dizaynerlar uchun: MidJourney yordamida ijodiy vizual g‘oyalar yaratish.",
         },
         {
           id: 3,
           title:
-            "After Effects: Grafik va matnli animatsiyalarni yaratish usullari.",
+            "c. Adobe Firefly bilan ishlash: Adobe’ning sun’iy intellektga asoslangan kreativ vositalari bilan ishlash.",
         },
         {
           id: 4,
-          title: "Mijoz bilan ishlash va frilancer saytlarida daromat qilish",
+          title:
+            "d. Freepik AI bilan ishlash: Freepik’dan dizayn loyihalari uchun sun’iy intellekt resurslaridan foydalanish.",
+        },
+        {
+          id: 5,
+          title:
+            "e. Prompt yaratish: AI-dan foydalangan holda samarali promtlar yozish.",
+        },
+        {
+          id: 6,
+          title:
+            "f. AI yordamida tez prototiplash: Sun’iy intellekt vositalari yordamida prototiplash jarayonini tezlashtirish.",
+        },
+        {
+          id: 7,
+          title:
+            "g. Takrorlanuvchi vazifalarni avtomatlashtirish: AI yordamida dizayn jarayonidagi takrorlanuvchi vazifalarni avtomatlashtirish.",
+        },
+        {
+          id: 8,
+          title:
+            "h. AI dizayndagi kelajak tendensiyalari: AI dizayn sohasini qanday o‘zgartirishi haqida kelajakdagi tendensiyalarni o‘rganish.",
+        },
+      ],
+    },
+    {
+      id: "05",
+      title: "Portfolio va professional rivojlanish",
+      body: [
+        {
+          id: 1,
+          title:
+            "a. Portfolio yaratish: Qiziqarli va ta’sirchan dizayn portfolioni qanday tuzish kerak.",
+        },
+        {
+          id: 2,
+          title:
+            "b. Mijoz topish: Dizayner sifatida mijozlarni jalb qilish va ular bilan bog‘lanish usullari.",
+        },
+        {
+          id: 3,
+          title:
+            "c. Mijoz bilan muloqot: Dizayn g‘oyalarini samarali yetkazish va mijozlarning fikrlarini qabul qilish.",
+        },
+        {
+          id: 4,
+          title:
+            "d. Mijozlarga loyiha topshirish: Mijozlarga natijalarni to‘g‘ri taqdim qilish va tashkil qilish bo‘yicha maslahatlar.",
+        },
+        {
+          id: 5,
+          title:
+            "e. Rezyume va shaxsiy brend yaratish: Dizayner rezyumesi va shaxsiy brendingni shakllantirish.",
+        },
+        {
+          id: 6,
+          title:
+            "f. Ish suhbatiga tayyorlanish: Dizayn bo‘yicha suhbatlarda muvaffaqiyat qozonish texnikalari va maslahatlari.",
+        },
+        {
+          id: 7,
+          title:
+            "g. Dizayn tanlovlari va musobaqalari: Dizayn tanlovlaridan foydalanib portfolioni kengaytirish yo‘llari.",
+        },
+        {
+          id: 8,
+          title:
+            "h. Freelance dizayn amaliyotlari: Freelance dizayner sifatida vaqtni boshqarish, narx belgilash va faoliyatni kengaytirish usullari.",
         },
       ],
     },

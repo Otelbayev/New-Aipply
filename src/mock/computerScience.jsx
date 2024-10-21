@@ -30,7 +30,7 @@ const DesignDesc = () => (
 
 export const computerScience = {
   courseImg,
-  
+
   path: "computer-science",
   name: "Kompyuter Savodxonligi",
   keywords: "kompyuter Savodxonligi, offis dasturlari, word, excel, powerpoint",
@@ -78,7 +78,7 @@ export const computerScience = {
   module: [
     {
       id: "01",
-      title: "Kompyuter tarixi va tarmoq",
+      title: "Kompyuter bilan tanishish va Brauzer",
       body: [
         {
           id: 1,
@@ -86,11 +86,11 @@ export const computerScience = {
         },
         {
           id: 2,
-          title: "b. Operatsion tizimlar haqida umumiy ma’lumot",
+          title: "b. Kompyuter xavfsizligi va brauzerlar",
         },
         {
           id: 3,
-          title: "c. Tarmoq haqida tushuncha",
+          title: "c. Google Gamburger",
         },
       ],
     },
@@ -100,11 +100,11 @@ export const computerScience = {
       body: [
         {
           id: 1,
-          title: "a. Microsoft Word dasturi",
+          title: "a. Microsoft Word",
         },
         {
           id: 2,
-          title: "b. Google Docs dasturi",
+          title: "b. Google Docs",
         },
         {
           id: 3,
@@ -126,19 +126,19 @@ export const computerScience = {
     },
     {
       id: "03",
-      title: "Kompyuter xavfsizligi va fayl boshqaruvi",
+      title: "Telegram va Sun’iy intellekt",
       body: [
         {
           id: 1,
-          title: "a. Viruslardan himoyalanish",
+          title: "a. Telegram",
         },
         {
           id: 2,
-          title: "b. Zaxiraviy nusxalar (Backup) tuzish",
+          title: "b. Foydali saytlar",
         },
         {
           id: 3,
-          title: "c. Telegram va foydali saytlar bilan ishlash",
+          title: "c. Sun’iy intellekt",
         },
       ],
     },

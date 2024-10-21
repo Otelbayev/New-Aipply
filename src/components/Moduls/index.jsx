@@ -27,9 +27,9 @@ const Moduls = ({ data }) => {
                 </div>
                 <div className="item-body">
                   {item?.body?.map((e) => (
-                    <h1 className="item-body__title" key={e.id}>
+                    <div className="item-body__title" key={e.id}>
                       {e.title}
-                    </h1>
+                    </div>
                   ))}
                 </div>
               </Item>

@@ -57,6 +57,8 @@ export const Item = styled.div`
     &__title {
       color: #fff;
       visibility: hidden;
+      margin: 10px 0;
+      font-size: 25px;
     }
   }
   ${({ id, name }) =>
