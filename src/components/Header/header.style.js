@@ -71,6 +71,8 @@ export const Container = styled.div`
       &__logo {
         width: 120px;
         z-index: 90;
+        position: relative;
+        z-index: 99;
       }
       &__nav {
         position: absolute;
@@ -93,7 +95,7 @@ export const Container = styled.div`
           padding: 10px 20px;
           transform: ${({ open }) =>
             !open ? "translateY(-500%)" : "translateY(0)"};
-
+          z-index: ${({ open }) => (open ? "2" : "-1")};
           text-align: left;
         }
       }

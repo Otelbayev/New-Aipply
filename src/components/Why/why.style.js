@@ -1,10 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
+  margin-top: 50px;
   .why-title {
     font-size: 40px;
     font-weight: 700;
-    margin: 80px 0 40px;
+    padding-bottom: 30px;
   }
   .why {
     display: grid;

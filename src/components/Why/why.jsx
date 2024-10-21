@@ -7,8 +7,9 @@ import { useScrollContext } from "../../context/scroll-context";
 const Why = () => {
   const { aboutRef } = useScrollContext();
   return (
-    <Container ref={aboutRef} className="container">
+    <Container className="container">
       <div className="why-title title">Nega aynan Aipply Academy?</div>
+      <div ref={aboutRef}></div>
       <div className="why">
         {whyData.map(({ icon, title }, index) => (
           <WhyItem key={index} icon={icon} title={title} />

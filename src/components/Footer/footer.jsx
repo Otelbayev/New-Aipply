@@ -8,7 +8,7 @@ const Footer = () => {
   const { aboutRef, courseRef, contactRef, mentorsRef, firstRef } =
     useScrollContext();
   return (
-    <Container ref={contactRef}>
+    <Container>
       <div className="container">
         <Content data-aos="fade-up">
           <Content.Left>
@@ -60,7 +60,7 @@ const Footer = () => {
             </div>
           </Content.Right>
         </Content>
-        <div className="footer-bottom">
+        <div ref={contactRef} className="footer-bottom">
           <button onClick={() => window.scrollTo(0, 0)}>
             <Top />
           </button>

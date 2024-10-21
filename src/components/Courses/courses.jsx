@@ -7,9 +7,9 @@ import { useScrollContext } from "../../context/scroll-context";
 const Courses = () => {
   const { courseRef } = useScrollContext();
   return (
-    <Container ref={courseRef} className="container">
+    <Container className="container">
       <div className="courses-title title">Mavjud kurslar</div>
-      <div className="courses">
+      <div className="courses" ref={courseRef}>
         {courseData.map((e, index) => (
           <CourseItem data={e} key={index} />
         ))}
