@@ -32,7 +32,8 @@ export const Container = styled.div`
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: 5px;
-    img, video {
+    img,
+    video {
       width: 33%;
     }
   }
@@ -40,6 +41,8 @@ export const Container = styled.div`
   @media (max-width: 1000px) {
     .about-title {
       width: 100%;
+      font-size: 30px;
+      line-height: 35px;
     }
     .about-head {
       &__right {

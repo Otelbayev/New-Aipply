@@ -6,6 +6,12 @@ export const Container = styled.div`
   .modul-title {
     width: 100%;
   }
+  @media screen and (max-width: 768px) {
+    .modul-title {
+      font-size: 30px;
+      line-height: 35px;
+    }
+  }
 `;
 
 export const Icons = styled.div``;

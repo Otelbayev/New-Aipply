@@ -56,6 +56,9 @@ export const Container = styled.div`
       gap: 10px;
       &__left {
         width: 100%;
+        &--title {
+          font-size: 35px;
+        }
       }
       &__right {
         width: 50%;

@@ -12,6 +12,8 @@ export const Container = styled.div`
   @media (max-width: 900px) {
     .tt {
       width: 100%;
+      font-size: 30px;
+      line-height: 35px;
     }
   }
 `;

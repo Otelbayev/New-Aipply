@@ -148,6 +148,8 @@ export const Container = styled.div`
     margin: 20px 0;
     .statistic-title {
       width: 100%;
+      font-size: 30px;
+      line-height:35px;
     }
     .statistic-content {
       flex-direction: column;

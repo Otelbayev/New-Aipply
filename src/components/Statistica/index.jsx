@@ -4,7 +4,6 @@ import Form from "../Form/form";
 import computer from "../../assets/images/computer.png";
 
 const Statistica = ({ data }) => {
-  const [enter, setEnter] = useState(false);
   return (
     <div className="container">
       <Container>
@@ -52,9 +51,7 @@ const Statistica = ({ data }) => {
           <div className="statistic-content__right">
             <div className="statistic-content__right__desc">{data?.desc}</div>
             <div className="statistic-content__right__form">
-              <Form
-                background="#F3F8FF"
-              />
+              <Form background="#F3F8FF" />
             </div>
           </div>
         </div>

@@ -26,6 +26,10 @@ export const Container = styled.div`
     }
   }
   @media (max-width: 850px) {
+    .then {
+      font-size: 30px;
+      line-height: 35px;
+    }
     .then-body {
       &__item {
         gap: 10px;
