@@ -1,22 +1,27 @@
 import React from "react";
 import { Container } from "./bottom.style";
 import boy from "../../assets/images/boy.png";
+import { Link } from "react-router-dom";
+import { useScrollContext } from "../../context/scroll-context";
 
 const Bottom = () => {
+  const { firstRef } = useScrollContext();
   return (
-    <Container className="container">
+    <Container ref={firstRef} className="container">
       <div className="bottom">
         <div className="bottom__left">
           <div className="bottom__left--title title">
             Aipply Academy bilan zamonaviy kasblarni zamon talabida o’rganing
-          </div> 
+          </div>
           <div className="bottom__left--form">
-            <div>Bepul ochiq darsga </div>
+            <div>Bepul birinchi darsga</div>
             <div>yozilish!</div>
-            <button className="btn">Bepul birinchi darsga yoziling</button>
+            <Link to="/lid">
+              <button className="btn">Bepul birinchi darsga yoziling</button>
+            </Link>
           </div>
         </div>
-        <img src={boy} alt="" className="bottom__right" />
+        <img loading="lazy" src={boy} alt="" className="bottom__right" />
       </div>
     </Container>
   );

@@ -33,7 +33,6 @@ export const Container = styled.div`
   }
   @media screen and (max-width: 768px) {
     background-position: 100%;
-
     .showcase {
       width: 100%;
       padding: 0 20px;

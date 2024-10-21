@@ -1,10 +1,14 @@
 import React from "react";
 import { Container, Content, Top, Icons } from "./footer.style";
 import { NavLink } from "react-router-dom";
+import { useScrollContext } from "../../context/scroll-context";
+import { useScroll } from "../../hooks/useScroll";
 
 const Footer = () => {
+  const { aboutRef, courseRef, contactRef, mentorsRef, firstRef } =
+    useScrollContext();
   return (
-    <Container>
+    <Container ref={contactRef}>
       <div className="container">
         <Content data-aos="fade-up">
           <Content.Left>
@@ -16,11 +20,17 @@ const Footer = () => {
           <Content.Right>
             <div>
               <Content.Title>AIPPLY ACADEMY</Content.Title>
-              <Content.Link to="/#about">Biz haqimizda</Content.Link>
-              <Content.Link to="/#course">Kurslar</Content.Link>
-              <Content.Link to="/#mentor">Mentorlar</Content.Link>
-              <Content.Link to="/#free">
-                Bepul ochiq darsga yozilish!
+              <Content.Link onClick={() => useScroll(aboutRef)}>
+                Biz haqimizda
+              </Content.Link>
+              <Content.Link onClick={() => useScroll(courseRef)}>
+                Kurslar
+              </Content.Link>
+              <Content.Link onClick={() => useScroll(mentorsRef)}>
+                Mentorlar
+              </Content.Link>
+              <Content.Link onClick={() => useScroll(firstRef)}>
+                Bepul birinchi darsga yozilish
               </Content.Link>
             </div>
             <div>

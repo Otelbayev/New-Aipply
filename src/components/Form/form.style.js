@@ -5,10 +5,14 @@ export const Container = styled.div`
   .form {
     box-shadow: 0px 3.6px 33.34px 0px #0000001a;
     backdrop-filter: blur(10px);
-    background: #ffffff33;
+    background: ${({ $bg }) => ($bg ? $bg : "#ffffff33")};
     border: 1px solid #f3f8ff33;
     padding: 30px;
     border-radius: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
     &__title {
       font-weight: 700;
       font-size: 20px;

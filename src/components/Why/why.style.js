@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  padding: 80px 0;
   .why-title {
     font-size: 40px;
     font-weight: 700;
-    margin-bottom: 40px;
+    margin: 80px 0 40px;
   }
   .why {
     display: grid;
+    margin-bottom: 80px;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     &__item {

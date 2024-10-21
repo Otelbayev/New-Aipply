@@ -22,14 +22,54 @@ const Partners = () => {
             O'zbekistonning yetakchi kompaniyalari ishga qabul qiladilar.
           </div>
           <div className="partners__icons">
-            <img src={icon1} className="partners__icons--item" alt="" />
-            <img src={icon2} className="partners__icons--item" alt="" />
-            <img src={icon3} className="partners__icons--item" alt="" />
-            <img src={icon4} className="partners__icons--item" alt="" />
-            <img src={icon5} className="partners__icons--item" alt="" />
-            <img src={icon6} className="partners__icons--item" alt="" />
-            <img src={icon7} className="partners__icons--item" alt="" />
-            <img src={icon8} className="partners__icons--item" alt="" />
+            <img
+              loading="lazy"
+              src={icon1}
+              className="partners__icons--item"
+              alt=""
+            />
+            <img
+              loading="lazy"
+              src={icon2}
+              className="partners__icons--item"
+              alt=""
+            />
+            <img
+              loading="lazy"
+              src={icon3}
+              className="partners__icons--item"
+              alt=""
+            />
+            <img
+              loading="lazy"
+              src={icon4}
+              className="partners__icons--item"
+              alt=""
+            />
+            <img
+              loading="lazy"
+              src={icon5}
+              className="partners__icons--item"
+              alt=""
+            />
+            <img
+              loading="lazy"
+              src={icon6}
+              className="partners__icons--item"
+              alt=""
+            />
+            <img
+              loading="lazy"
+              src={icon7}
+              className="partners__icons--item"
+              alt=""
+            />
+            <img
+              loading="lazy"
+              src={icon8}
+              className="partners__icons--item"
+              alt=""
+            />
           </div>
         </div>
       </Container>

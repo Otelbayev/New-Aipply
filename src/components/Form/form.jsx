@@ -1,16 +1,19 @@
 import React from "react";
 import { Container } from "./form.style";
+import { Link } from "react-router-dom";
 
-const Form = () => {
+const Form = ({ background }) => {
   return (
-    <Container>
+    <Container $bg={background}>
       <div className="form">
         <div className="form__title title">Bepul birinchi darsga yoziling</div>
         <div className="form__desc title">
           Telefon raqamingizni yozib qoldiring, biz Siz bilan bog'lanamiz va
           barcha savollaringizga javob beramiz!
         </div>
-        <button className="form__button btn">Ro’yhatdan o’tish</button>
+        <Link to="/lid">
+          <button className="form__button btn">Ro'yxatdan o'tish</button>
+        </Link>
       </div>
     </Container>
   );

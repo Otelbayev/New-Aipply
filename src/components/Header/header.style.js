@@ -8,6 +8,7 @@ export const Container = styled.div`
     justify-content: center;
   }
   .header {
+    z-index: 10;
     width: 100%;
     display: flex;
     align-items: center;
@@ -25,10 +26,13 @@ export const Container = styled.div`
       align-items: center;
       gap: 20px;
       &--item {
+        cursor: pointer;
         font-weight: 600;
         color: #2b62af;
         font-size: 15px;
         text-decoration: none;
+        border: none;
+        background: transparent;
       }
     }
     &__button {
@@ -49,7 +53,7 @@ export const Container = styled.div`
       position: absolute;
       top: 67px;
       width: 100%;
-      z-index: 5;
+      z-index: 1;
       height: calc(100dvh - 67px);
       background: rgba(0, 0, 0, 0.5);
       left: 0;
@@ -62,32 +66,35 @@ export const Container = styled.div`
     .header {
       &__menu {
         display: block;
+        z-index: 10;
       }
       &__logo {
         width: 120px;
+        z-index: 10;
       }
       &__nav {
         position: absolute;
         transition: height 0.3s;
-        /* transform: ${({ open }) =>
-          !open ? "translateY(-200%)" : "translateY(0)"}; */
         top: 56px;
         left: 0;
         width: 100%;
         height: ${({ open }) => (open ? "150px" : "0")};
-        z-index: ${({ open }) => (open ? "10" : "-1")};
+        z-index: ${({ open }) => (open ? "2" : "-1")};
         background: linear-gradient(272.66deg, #02a5e0 19.32%, #0000b0 100%);
         border-bottom-left-radius: 15px;
         border-bottom-right-radius: 15px;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        /* padding: 20px 0; */
         gap: 5px;
         &--item {
           width: 100%;
           color: #fff;
           padding: 10px 20px;
+          transform: ${({ open }) =>
+            !open ? "translateY(-200%)" : "translateY(0)"};
+
+          text-align: left;
         }
       }
     }
